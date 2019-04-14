@@ -114,10 +114,24 @@ body{
     border:1px solid red;
 }
 
+.page-header {
+    background-color:#000;
+    color:#fff;
+    position:relative;
+}
 
+.page-header h1{
+    margin:0;
+    padding:1em;
+    font-size:1em;
+    text-transform:uppercase;
+}
 
-
-
+.page-header i{
+   position:absolute;
+    top:20px;
+    right:20px;
+}
 
 
 
