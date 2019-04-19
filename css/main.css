@@ -132,7 +132,7 @@ img{
     top:0;
     left:0;
     width:100%;
-    
+    z-index:+10;
 }
 .page-header h1{
     margin: 0;
@@ -141,6 +141,7 @@ img{
     position:absolute;
     top:1em;
     right:1em;
+    
     
 }
 .page-section{
@@ -152,7 +153,7 @@ img{
     display:inline-block;
     font-size:1.25em;
     border: 0.125em solid #000;
-    padding:0.5em 1em;
+    padding:0.75em 1em;
     text-decoration:none;
     color: #000;
 }
@@ -199,11 +200,12 @@ img{
     color:#000;
 }
 
+
 .project-thumb{
     position:relative;
     width:50%;
     float:left;
-    background-color: hsla(0,100%,100%,0.5);
+    background-color: hsla(0,100%,100%,0.75);
     border:1px solid white;
 
 }
